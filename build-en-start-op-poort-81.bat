@@ -1,3 +1,3 @@
-docker build -t mijnimage .
-docker run -dt -p8080:81 --name mijncontainer httpd 
+docker build -t mijnimage:tag1 .
+docker run --name mijncontainerMM -dt -p 81:80 mijnimage:tag1 
 
