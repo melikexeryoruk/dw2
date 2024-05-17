@@ -1,2 +1,2 @@
-docker stop 
-docker rm 
+docker stop mijncontainer 
+docker rm mijncontainer

@@ -1,2 +1,3 @@
 docker build .
-start http://localhost:81/ 
+docker run -dt -p8080:81 --name mijncontainer httpd 
+
